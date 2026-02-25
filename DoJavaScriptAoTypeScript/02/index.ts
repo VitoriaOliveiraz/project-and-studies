@@ -28,15 +28,3 @@ const buscarLivro = (livros: string[], nomeDoLivro: string): string => {
 console.log(buscarLivro(["Guerra e Paz", "A Montanha Mágica", "Cem Anos de Solidão", "Dom Quixote", "A Divina Comédia"], "Guerra e Paz"))
 
 console.log(buscarLivro(["Guerra e Paz", "A Montanha Mágica", "Cem Anos de Solidão", "Dom Quixote", "A Divina Comédia"], "Pão com ovo"))
-
-const buscarLivros = (livros: string[], nomeDoLivro: string): string => {
-  const posiçãoDoLivro: number = livros.indexOf(nomeDoLivro)
-
-  if (posiçãoDoLivro !== -1) {
-    return `O livro solucionado atualmente está na posição ${posiçãoDoLivro + 1}`
-  }
-  return "Livro não encontrado na estante"
-}
-console.log(buscarLivros(["Guerra e Paz", "A Montanha Mágica", "Cem Anos de Solidão", "Dom Quixote", "A Divina Comédia"], "A Montanha Mágica"))
-
-console.log(buscarLivros(["Guerra e Paz", "A Montanha Mágica", "Cem Anos de Solidão", "Dom Quixote", "A Divina Comédia"], "Pão com ovo e mostarda"))

@@ -36,6 +36,7 @@ console.log(arrayEvens([0, 122, 4, 6, 7, 8, 44])) // Array inválido
 console.log(arrayEvens([0, 122, 4, 6, 2, 8, 44])) // Array válido
 
 
+///Erros
 
 // O lado esquerdo de uma operação aritmética deve ser do tipo 'any', 'number', 'bigint' ou um tipo enumerado - Erro
 // Não é possível atribuir a 'existOddNumbers' porque é uma constante
