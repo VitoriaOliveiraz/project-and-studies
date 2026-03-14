@@ -120,3 +120,5 @@ const somar = (a: number, b: number): number => {
 
 - Bem realmente havia um jeito menos burocratico e chato de se fazer aquele exercício, implementei um find pra fazer uma busca já percorrendo cada objeto do array e coloquei um includes. Funcionou e foi mais pratico em minha percepção, além é claro de notar meu proprio erro, criei uma função dom retorno e esqueci o retorno. Embora foi um erro de desatenção, uma variavel com retorno onde não se mostra esse retorno ele so sai. 
 
+- Hoje é a anotação do dia 10/03/2026 do exercicio número 02. Achei particularmente fácil, vendo assim só o enunciado, vamos ver durante o  desenvolvimento, coisa que eu acho que vai ser mais fácil ainda. Vale ressaltar que já lido com JS a um ano e alguns meses de maneira profissional então já conheço métodos e coisas do tipo. 🕧 17:57 - 🕧 18: 17 easy
+
