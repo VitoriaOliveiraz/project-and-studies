@@ -14,8 +14,8 @@ Esse repositório foi inicialmente pensando pra apenas ser um lugar de estudos, 
 | ------------------------------ | ------------------------------------------------------------------------------------------------- |
 | [`/apis`](./apis/)             | APIs REST construídas com Node.js e Express, de um aprendizado simples e espero eu ate o avançado |
 | [`/typescript`](./typescript/) | Trilha de estudos em TypeScript, onde vai encontrar minhas lutas com as tipagens do TS            |
+| [`/docker`](./docker)          | Aprendizados do docker.... ainda em progresso                                                     |
 | [`/coisas futuras`]            | ....?                                                                                             |
-
 ---
 
 ## Autora
