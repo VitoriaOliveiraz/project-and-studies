@@ -32,7 +32,7 @@ No jardim da sua casa você tem seus **conhecimentos** pra cuidar das suas plant
 
 Suponhamos que a senhorita Narciso viu que você cuida muito bem das suas flores, então decidiu pedir pra que cuidasse das dela também. Você, como um ávido jardineiro, disse que sim. Porém, entretanto, todavia, assim que chegou na casa da senhora Narciso, viu que as que ela tinha em seu kit não eram as mesmas **ferramentas** necessarias pra cuidar de um belo jardim, as ferramentas dela não eram compatíveis com o seu serviço e seus **conhecimentos** se mostraram inúteis sem as ferramentas certas, e mesmo que você tentasse, as flores e o jardim continuariam a ficar sem graça..
 
-Vendo isso, você definiu com a senhora Narciso que trabalharia com as suas próprias ferramentas. Mas em vez de carregá-las soltas por ai , pelo jardim dela e o seu, você as organizou em um **kit básico**, que sempre tem: a pá certa, o adubo certo, a tesoura certa, um kit que você sempre leva onde quer que vá, e que sempre tem exatamente o que você precisa. Mesmo que o jardim mude, o kit não muda. E por isso, o seu trabalho de jardineiro vai ser belo e bonito em qualquer jardim, porque as **ferramentas** certas junto com o **conhecimento** sempre chegam juntos com você.
+Vendo isso, seguiu até seu **galpão**, la dentro tem tudo que você precisa e usa pra lidar com os jardins, onde você teria todos os itens necessário para gerenciar o jardim da Sra. Narciso, o seu e infitos outros jardins caso seu bom serviço se espalhasse. Já dentro do galpão você organizou suas **ferramentas** em um **kit básico**, usando uma lista que garante que sempre tem: a pá certa, o adubo certo, a tesoura certa, um kit que você sempre leva onde quer que vá, e que sempre tem exatamente o que você precisa. Mesmo que o jardim mude, o kit não muda. E por isso, o seu trabalho de jardineiro vai ser belo e bonito em qualquer jardim, porque as **ferramentas** certas que, seguiam oque era necessário ter no kit através da lista, com o **conhecimento** sempre chegam juntos com você.
 
 Certo Vicky e como isso funciona? Oque bulhufas isso tem haver com Docker? como isso me explica o que o problema que o docker soluciona? Simples.
 
@@ -44,8 +44,12 @@ E tudo que a aplicação, no caso o jardinerio precisa pra trabalhar, aberto e p
 
 A lista de seu kit? Uma lista de ferramentas que você precisa pra trabalhar, listada com todas as ferramentas necessarias, logo -> **Image**
 
-O jardim da dona Narciso, é o ambiente que vai receber você, que vai receber todo o jardineiro, as ferramentas dele, que vai permitir a verificação das ferramentas, se todas seguem a lista, que vai abrir espaço pra aplicação do conhecimento. -> **Docker**
+O jardim da dona Narciso, que vai receber você é --> **Ambiente**
 
+
+O galpão que vai servir para guardar tudo que o jardineiro precisa, e vai por assim dizer organizar os detalhes segue sendo o -> **Docker**
+
+***End🌻***
 ---
 
 ## docker-compose.yml
