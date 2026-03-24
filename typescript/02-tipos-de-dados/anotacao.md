@@ -87,7 +87,8 @@ console.log(usuario);
 
 - Quando se trata de tipagem em funções, até elas sofrem com a inferencia de tipos, mas mesmop assim é melhor previnir. Além de que as funções mantem tipo do parâmetro como obrigatório. Se uma função recebe um parametro o tipo dela tem que ser explícito (evitando o any). Parte desta tipagem eu já vi, ou já apliquei em pratica, por isso estou apenas documentando a maioria pra consulta caso necesário.
 
-- **Não compreendo, isso não  ficario sujo em grande escala? Claro eu sei que é apenas a introdução, mas isso em grande escala seria inconvenientemente chato. Tipar todos os parametros, assim em uma função que recebe valores ou objetos enormes isso seria puxado.**
+- **Não compreendo, isso não ficario sujo em grande escala? Claro eu sei que é apenas a introdução, mas isso em grande escala seria inconvenientemente chato. Tipar todos os parametros, assim em uma função que recebe valores ou objetos enormes isso seria puxado.**
+
 ```
 function imprimir(nome: string): string {
     return `olá ${nome}`;
@@ -116,9 +117,11 @@ const somar = (a: number, b: number): number => {
 ```
 
 # Anotações de exercícios ✏️
-- Devo assumir que o primeiro exercício me pegou(01-implement-typeScript), tive que consultar a explicação do Professor Ciqueira, mas não para ver a solução completa, apenas para questão de tipos. Fzendo o primeiro exercício achei que ele tinha muitos for, não sei se isso é aceitavel, mas na minha percepção pode ser melhor, e é confuso de se entender, talvez com outros metodos de array, seja melhor. Essa foi minha primeira anotação, ainda em progresso na rezolução. (horas: 17:14)
 
-- Bem realmente havia um jeito menos burocratico e chato de se fazer aquele exercício, implementei um find pra fazer uma busca já percorrendo cada objeto do array e coloquei um includes. Funcionou e foi mais pratico em minha percepção, além é claro de notar meu proprio erro, criei uma função dom retorno e esqueci o retorno. Embora foi um erro de desatenção, uma variavel com retorno onde não se mostra esse retorno ele so sai. 
+- Devo assumir que o primeiro exercício me pegou(01-implement-typeScript), tive que consultar a explicação do Professor Ciqueira, mas não para ver a solução completa, apenas para questão de tipos. Fazendo o primeiro exercício achei que ele tinha muitos fors, não sei se isso é aceitavel, mas na minha percepção pode ser melhor, e é confuso de se entender, talvez com outros metodos de array, seja melhor. Essa foi minha primeira anotação, ainda em progresso na rezolução. (horas: 17:14)
 
-- Hoje é a anotação do dia 10/03/2026 do exercicio número 02. Achei particularmente fácil, vendo assim só o enunciado, vamos ver durante o  desenvolvimento, coisa que eu acho que vai ser mais fácil ainda. Vale ressaltar que já lido com JS a um ano e alguns meses de maneira profissional então já conheço métodos e coisas do tipo. 🕧 17:57 - 🕧 18: 17 easy
+- Bem realmente havia um jeito menos burocratico e chato de se fazer aquele exercício, implementei um find pra fazer uma busca já percorrendo cada objeto do array e coloquei um includes. Funcionou e foi mais pratico em minha percepção, além é claro de notar meu proprio erro, criei uma função dom retorno e esqueci o retorno. Embora foi um erro de desatenção, uma variavel com retorno onde não se mostra esse retorno ele so sai.
 
+- Hoje é a anotação do dia 10/03/2026 do exercicio número 02. Achei particularmente fácil, vendo assim só o enunciado, vamos ver durante o desenvolvimento, coisa que eu acho que não enfrentarei dificuldade. Vale ressaltar que já lido com JS a um ano e alguns meses de maneira profissional então já conheço métodos e coisas do tipo. 🕧 17:57 - 🕧 18: 17 easy
+
+-Hoje é 24/03/2026, seguimos fazendo o exercicio 3. Eu fça tudo mesmo assim, pois me ajuda melhorar minha lógica, que eu julgava ruim kkkkkk 🌻 Comecei as 🕧 17:08. Eu levei uma sura de uma tabuada, mas algo me deixou encucada, como assim? isso é aceitavel? um for dentro do for? tem um jeito melhor? vou pesquisar, com metodo e coisa do tipo depois. Aderi a do professor por enquanto 🕧 17:56
