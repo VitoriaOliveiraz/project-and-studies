@@ -20,7 +20,9 @@ Esse repositório foi inicialmente pensando pra apenas ser um lugar de estudos, 
 
 ## Autora
 
-Feito por 🌻 **Vitória Oliveira** 🌻 — estudando, errando e evoluindo e mostrando🦋
+Feito por 🌻 **Vitória Oliveira** 🌻 — estudando, errando e evoluindo e mostrando.🦋
+
+### Que futuramente este repósitorio faça sentido pra mim e que os códigos aqui sejam agradaveis
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/VitoriaOliveiraz)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vitória-oliveira-developer)
