@@ -124,4 +124,22 @@ const somar = (a: number, b: number): number => {
 
 - Hoje é a anotação do dia 10/03/2026 do exercicio número 02. Achei particularmente fácil, vendo assim só o enunciado, vamos ver durante o desenvolvimento, coisa que eu acho que não enfrentarei dificuldade. Vale ressaltar que já lido com JS a um ano e alguns meses de maneira profissional então já conheço métodos e coisas do tipo. 🕧 17:57 - 🕧 18: 17 easy
 
--Hoje é 24/03/2026, seguimos fazendo o exercicio 3. Eu fça tudo mesmo assim, pois me ajuda melhorar minha lógica, que eu julgava ruim kkkkkk 🌻 Comecei as 🕧 17:08. Eu levei uma sura de uma tabuada, mas algo me deixou encucada, como assim? isso é aceitavel? um for dentro do for? tem um jeito melhor? vou pesquisar, com metodo e coisa do tipo depois. Aderi a do professor por enquanto 🕧 17:56
+- Hoje é 24/03/2026, seguimos fazendo o exercicio 3. Eu faça tudo mesmo assim, pois me ajuda melhorar minha lógica, que eu julgava ruim kkkkkk 🌻 Comecei as 🕧 17:08. Eu levei uma surra de uma tabuada. Mas travei em alguns quisitos. Sempre vejo falarem de codigo limpo e bem estruturado, escalavel e etc. A minha hesitação não foi sobre codar, foi sobre o código estar "aceitavel". Bem é um ponto importante, claro. mesmo aprendendo, tento pensar em um código limpo, e a ideia de ter um for dentro do outro não foi bem aceita quando eu estava aprendendo. Talvez a do professor seja o mais simples, ou didatico, mas eu quero aplicar algo melhor futuramente. Vou retornar a este exercicio. 🕧 17:56
+
+- Bem, hoje é 25/03/2026 e decidi seguir com os exercicios apresentados e fazer refazer o o anterior depois. O exercicio 4 parece ser algo relacionado a impressão de eetiquetas no terminal. Aparentemente o padrão pra etiqueta é lote,ano e a quantidade registrada. O produto vem assim:
+  ```{
+        produto: 'CPU Dual Core 3.0GHZ',
+        lote: 321,
+        ano: 2022,
+        qtd: 5
+    }
+  ```
+  e deve ser retornado assim: ` [
+    "321-2022-001",
+    "321-2022-002",
+    "321-2022-003",
+    "321-2022-004",
+    "321-2022-005"
+]`
+ - So pra ressaltar os ponto e virgulas que aparecem por ai é do meu ctrl s pra formatar o codigo. Já que tudo hoje que tem isso é ia, o meu não é, to fazendo na raça como dizem kkkkkk. Acho que um gor resolve. Mas me pergunto se for deixa uma boa impressão.
+ - Ok, quebrei. vamos ver porque? ata eu colequei o dado errado. Vi que meu erro não era so a questão do dado, vi que precisava de um metododo avaliando meu exercicio junco com o professor, que foi no caso o ```padStart(3,'0')``` que indica que o maximo de numeros que espero é 3, ocupando três casas, e que se caso as tres casas não forem ocupadas coloque '0' pra preencher.
